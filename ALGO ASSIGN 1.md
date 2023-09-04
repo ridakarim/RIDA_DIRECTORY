@@ -54,5 +54,20 @@
 ![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/77ac5195-ec72-4493-a38c-0c43dc1ab255)
 ![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/9cc92c3f-0420-4229-b633-02172b945b97)
 
+# Q9:
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/315aa92d-06a3-4376-a82d-a186403d1e46)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/e5274313-e47d-44f2-b116-aeb370777ea8)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/6cdde009-ab20-4f49-9518-d9a1c0b04e97)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/74fac2f2-4bf8-4859-8416-7dd705e58a9c)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/e333bd5d-1eba-43b7-a72c-ba523d3bb250)
+
+# Q10:
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/c0feacd2-eef5-49b1-bf4f-1d4628b604f2)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/e5764905-143c-483e-9246-639c35b5af9e)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/23b2e035-dfee-4826-976e-7bd4982c3380)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/25a25cf2-6bad-4a99-9470-8bb9a56ff2df)
+
+
+
 
 
