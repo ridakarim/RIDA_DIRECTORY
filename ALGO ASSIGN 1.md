@@ -8,6 +8,9 @@
 
 # Q2:
 ![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/c6404ef9-d4fb-4759-a36a-798a8476b319)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/ed1d24b7-60ad-4dfc-8d0b-36481f16bb85)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/123fb59d-2374-44e2-a806-13668c104ae7)
+
 ![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/6158de9d-e284-4838-acd0-572385f56465)
 ![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/c8d141f5-f3cd-446b-9302-99d814cdaabe)
 ![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/48dffa69-5c58-4453-8b80-735f5e0b0a61)
