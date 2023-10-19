@@ -53,6 +53,9 @@
 ![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/21024b6e-8a8c-4bb1-af6b-2a1a9f8da01d)
 ![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/bbcd06d8-5525-4642-9afa-6a7085b540f1)
 ![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/0fcd24b8-b543-4896-adb2-16423b83f85a)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/443990d4-587b-42b3-91f6-2d4b3014ff30)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/023b5ed4-3c07-4973-b079-13925e0634eb)
+
 
 # Q11:
 ![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/8ae9283d-1efc-4862-b040-bd1cd2cd4ae8)
