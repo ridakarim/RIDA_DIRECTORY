@@ -50,6 +50,11 @@
 
 # Q10:
 ![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/b2a440df-ddea-4996-bf4e-09b53efd151d)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/35734bfa-28f8-4e97-91a8-baa5989a698c)
+
+# Q10 related ques
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/591bc953-3065-48b5-91a0-e0a418b74185)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/fe5bc7f6-279e-4914-911c-269fdfd00c19)
 
 # Q11:
 ![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/75b07258-f59c-4a3a-84f6-a818a79f08f6)
