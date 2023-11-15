@@ -22,7 +22,7 @@ class GeometryApp:
         self.convex_hull_label = tk.Label(root, text="Convex Hull Points:")
         self.convex_hull_label.pack()
 
-        self.check_intersection_button = tk.Button(root, text="Check Intersection", command=self.check_intersection)
+        self.check_intersection_button = tk.Button(root, text="Check CCW Intersection", command=self.check_intersection)
         self.check_intersection_button.pack()
 
         self.compute_brute_force_button = tk.Button(root, text="Compute Brute Force Convex Hull", command=self.compute_brute_force_convex_hull)
