@@ -37,6 +37,63 @@
 ![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/8e07bc5b-00ff-4230-8e6e-2c21e6843369)
 
 
+# Q8:
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/67a5e049-7892-49c3-aa1b-a014e56cc144)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/d1459078-a146-42fa-9e7f-b7494722f04d)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/3f1a23e1-eb68-4f06-9964-66fc7f55f93b)
+
+# Q9:
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/8b7f46ea-f9b2-4220-bf09-61c0f03ac722)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/00374433-75ff-4e4f-b820-1f9bec8bf8a3)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/e3797ae7-af7d-4d25-84ac-bb1db74a7c5a)
+
+
+# Q10:
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/b2a440df-ddea-4996-bf4e-09b53efd151d)
+
+# Q11:
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/75b07258-f59c-4a3a-84f6-a818a79f08f6)
+
+# Q12:
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/adfe086c-a917-42c9-bd3b-7c8ea1c6a105)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/6ffb95d7-8ec3-40ed-a7dc-34ca1c889ca7)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/100fbc3b-5284-41c7-9426-ba993c60a37c)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/03b1021a-523e-438f-8110-a39a6967c72e)
+
+
+# Q13:
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/e73d05e7-ca9c-49ab-bb21-b17094583e68)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/f4cf5080-c184-4b21-9ece-417eaca3d26e)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/9abd8ea8-d5aa-48b4-9181-bb4146ff3f29)
+
+# Q14:
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/67ed42af-0212-4039-9e85-042f544e6297)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/30e1a757-883c-4c43-9e29-3421e731dab4)
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/e55ed8b1-662d-4bd8-a577-53d1456ac9bd)
+
+# Q15:
+![image](https://github.com/ridakarim/RIDA_DIRECTORY/assets/142886219/df1e49ac-4f23-4460-b209-4d3314e86b1b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
