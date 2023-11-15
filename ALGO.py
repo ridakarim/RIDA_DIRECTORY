@@ -1,6 +1,9 @@
+import time
 import tkinter as tk
 from itertools import combinations
 from math import atan2
+from tkinter import messagebox
+
 
 class GeometryApp:
     def __init__(self, root):
@@ -37,6 +40,10 @@ class GeometryApp:
         self.compute_kirkpatrick_seidel_button = tk.Button(root, text="Compute Kirkpatrick–Seidel Convex Hull", command=self.compute_kirkpatrick_seidel_convex_hull)
         self.compute_kirkpatrick_seidel_button.pack()
 
+        self.complexity_label = tk.Label(root, text="Time and Space Complexities:")
+        self.complexity_label.pack()
+
+
         self.clear_button = tk.Button(root, text="Clear All", command=self.clear_all)
         self.clear_button.pack()
 
@@ -60,47 +67,145 @@ class GeometryApp:
             line_id = self.canvas.create_line(line_start, line_end, fill=line_color)
             self.lines.append((line_start, line_end, line_id))
             self.canvas.tag_lower(line_id)  # Move the line to the background
+    def ccw(self, a, b, c):
+        return (c[1] - a[1]) * (b[0] - a[0]) > (b[1] - a[1]) * (c[0] - a[0])
+
+    def are_lines_intersecting_ccw(self, line1, line2):
+        def intersect(segment1, segment2):
+            a, b = segment1
+            c, d = segment2
+            return self.ccw(a, c, d) != self.ccw(b, c, d) and self.ccw(a, b, c) != self.ccw(a, b, d)
+
+        line1_segment = line1[:2]
+        line2_segment = line2[:2]
+
+        return intersect(line1_segment, line2_segment)
 
     def check_intersection(self):
         intersections = []
         for line1, line2 in combinations(self.lines, 2):
-            (x1, y1), (x2, y2), _ = line1
-            (x3, y3), (x4, y4), _ = line2
+            if self.are_lines_intersecting_ccw(line1, line2):
+                (x1, y1), (x2, y2), _ = line1
+                (x3, y3), (x4, y4), _ = line2
 
-            den = (x1 - x2) * (y3 - y4) - (y1 - y2) * (x3 - x4)
-            if den != 0:
-                t = ((x1 - x3) * (y3 - y4) - (y1 - y3) * (x3 - x4)) / den
-                u = -((x1 - x2) * (y1 - y3) - (y1 - y2) * (x1 - x3)) / den
+                den = (x1 - x2) * (y3 - y4) - (y1 - y2) * (x3 - x4)
+                if den != 0:
+                    t = ((x1 - x3) * (y3 - y4) - (y1 - y3) * (x3 - x4)) / den
+                    u = -((x1 - x2) * (y1 - y3) - (y1 - y2) * (x1 - x3)) / den
 
-                if 0 <= t <= 1 and 0 <= u <= 1:
-                    intersection_x = x1 + t * (x2 - x1)
-                    intersection_y = y1 + t * (y2 - y1)
-                    intersections.append((intersection_x, intersection_y))
+                    if 0 <= t <= 1 and 0 <= u <= 1:
+                        intersection_x = x1 + t * (x2 - x1)
+                        intersection_y = y1 + t * (y2 - y1)
+                        intersections.append((intersection_x, intersection_y))
 
         if intersections:
             self.intersection_label.config(text=f"Intersection Points: {intersections}")
         else:
             self.intersection_label.config(text="No intersection points.")
+    def display_complexities(self, time_complexity, space_complexity):
+        complexity_text = f"Time Complexity: {time_complexity} seconds\nSpace Complexity: {space_complexity}"
+        self.complexity_label.config(text=complexity_text)
 
     def compute_brute_force_convex_hull(self):
+        start_time = time.time()
         convex_hull_points = self.brute_force_convex_hull(self.points)
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        time_complexity = f"{elapsed_time:.5f}"
+
+        # Assuming convex_hull_points contains the convex hull
+        space_complexity = f"{len(convex_hull_points)}"
+
         self.convex_hull_label.config(text=f"Convex Hull Points (Brute Force): {convex_hull_points}")
+        self.display_complexities(time_complexity, space_complexity)
 
     def compute_jarvis_march_convex_hull(self):
+        start_time = time.time()
         convex_hull_points = self.jarvis_march_convex_hull(self.points)
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        time_complexity = f"{elapsed_time:.5f}"
+
+        # Assuming convex_hull_points contains the convex hull
+        space_complexity = f"{len(convex_hull_points)}"
+
         self.convex_hull_label.config(text=f"Convex Hull Points (Jarvis March): {convex_hull_points}")
+        self.display_complexities(time_complexity, space_complexity)
 
     def compute_graham_scan_convex_hull(self):
+        start_time = time.time()
         convex_hull_points = self.graham_scan_convex_hull(self.points)
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        time_complexity = f"{elapsed_time:.5f}"
+
+        # Assuming convex_hull_points contains the convex hull
+        space_complexity = f"{len(convex_hull_points)}"
+
         self.convex_hull_label.config(text=f"Convex Hull Points (Graham Scan): {convex_hull_points}")
+        self.display_complexities(time_complexity, space_complexity)
 
     def compute_quick_elimination_convex_hull(self):
+        start_time = time.time()
         convex_hull_points = self.quick_elimination_convex_hull(self.points)
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        time_complexity = f"{elapsed_time:.5f}"
+
+        # Assuming convex_hull_points contains the convex hull
+        space_complexity = f"{len(convex_hull_points)}"
+
         self.convex_hull_label.config(text=f"Convex Hull Points (Quick Elimination): {convex_hull_points}")
+        self.display_complexities(time_complexity, space_complexity)
 
     def compute_kirkpatrick_seidel_convex_hull(self):
+        start_time = time.time()
         convex_hull_points = self.kirkpatrick_seidel_convex_hull(self.points)
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        time_complexity = f"{elapsed_time:.5f}"
+
+        # Assuming convex_hull_points contains the convex hull
+        space_complexity = f"{len(convex_hull_points)}"
+
         self.convex_hull_label.config(text=f"Convex Hull Points (Kirkpatrick–Seidel): {convex_hull_points}")
+        self.display_complexities(time_complexity, space_complexity)
+
+    def check_line_intersection_button(self):
+        if len(self.lines) < 4:
+            messagebox.showwarning("Not Enough Lines", "Please draw at least two lines.")
+            return
+
+        line1 = self.lines[-2][:2]  # Get the last two points of the first line
+        line2 = self.lines[-1][:2]  # Get the last two points of the second line
+
+        if self.are_lines_intersecting(line1, line2):
+            intersection_point = self.get_intersection_point(line1, line2)
+            messagebox.showinfo("Line Intersection", f"The lines intersect at {intersection_point}.")
+        else:
+            messagebox.showinfo("Line Intersection", "The lines do not intersect.")
+
+    def are_lines_intersecting(self, line1, line2):
+        # Implement your line intersection logic here
+        # You can use the existing method or add new logic as needed
+        pass
+
+    def get_intersection_point(self, line1, line2):
+        # Implement the calculation of the intersection point
+        # You can use existing code or add new logic as needed
+        x1, y1 = line1[0]
+        x2, y2 = line1[1]
+        x3, y3 = line2[0]
+        x4, y4 = line2[1]
+
+        # Calculate intersection point (you can replace this with your existing code)
+        intersection_x = (x1 * y2 - y1 * x2) * (x3 - x4) - (x1 - x2) * (x3 * y4 - y3 * x4)
+        intersection_x /= (x1 - x2) * (y3 - y4) - (y1 - y2) * (x3 - x4)
+
+        intersection_y = (x1 * y2 - y1 * x2) * (y3 - y4) - (y1 - y2) * (x3 * y4 - y3 * x4)
+        intersection_y /= (x1 - x2) * (y3 - y4) - (y1 - y2) * (x3 - x4)
+
+        return round(intersection_x), round(intersection_y)
 
     def kirkpatrick_seidel_convex_hull(self, points):
         def orientation(p, q, r):
@@ -254,19 +359,17 @@ class GeometryApp:
 
         return convex_hull
 
-
     def clear_all(self):
         self.points = []
         self.lines = []
         self.canvas.delete("all")
         self.intersection_label.config(text="Intersection Points:")
         self.convex_hull_label.config(text="Convex Hull Points:")
+        self.complexity_label.config(text="")
 
 
 if __name__ == "__main__":
     root = tk.Tk()
     app = GeometryApp(root)
-
-    
 
     root.mainloop()
